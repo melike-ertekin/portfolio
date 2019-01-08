@@ -1,0 +1,134 @@
+@media only screen and (max-width: 767px) {
+    #logo {
+        text-align: center;
+    }
+
+    #info {
+        text-align: center;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    #logo {
+        text-align: left;
+    }
+
+    #info {
+        text-align: right;
+    }
+}
+
+
+/* Header */
+
+.profile {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border-color: #ffffff;
+}
+
+
+.header {
+    padding-top: 20px;
+    background-color: #42526c;
+    color: #ffffff;
+}
+
+
+.nav {
+    background-color: #42526c;
+}
+
+
+.nav-link {
+    color: #ffffff;
+}
+
+
+.nav-tabs {
+    color: #ffffff;
+}
+
+
+.link-inactive:hover {
+    color: #ffffff;
+}
+
+
+.link-active: {
+    color: #42526c;
+}
+
+
+/* Content */
+
+section {
+    margin: 20px auto 20px auto;
+}
+
+
+.project-title {
+    color: #42526c;
+}
+
+
+.project-img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+    max-width: 100%;
+}
+
+
+.project-link {
+    color: #687c97;
+    font-size: 0.75em;
+}
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Modal */
+
+.modal-title {
+    color: #42526c;
+}
+
+
+.modal-project-img {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: auto;
+    max-width: 100%;
+}
+
+
+.modal-project-link {
+    color: #42526c;
+    font-size: 1em;
+}
+
+
+.modal-parag {
+    text-align: left;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #42526c;
+    height: 50px;
+}
+
+
+.social-icon {
+    color: #ffffff;
+    font-size: 2em;
+    padding-top: 10px
+}
